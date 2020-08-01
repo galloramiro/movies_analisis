@@ -3,7 +3,7 @@ from os import getcwd
 import pandas as pd
 from pandas import DataFrame
 
-from constants import Columns
+from services.constants import Columns
 
 
 class MoviesCsvHandler:

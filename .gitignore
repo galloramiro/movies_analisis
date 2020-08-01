@@ -129,5 +129,5 @@ dmypy.json
 .pyre/
 
 # Personal data
-.work/data/
-.work/start.ipynb
+.work/analizers/data/
+.work/analizers/start.ipynb
