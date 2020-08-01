@@ -23,7 +23,7 @@ class MoviesCsvHandler:
         df[Columns.release_year.value] = df[Columns.release_year.value].astype('category')
         return df
     
-    def get_revenew_vs_votes_average(self, file_name: str = None, last_few_years: int= None) -> DataFrame:
+    def get_reveneu_vs_votes_average(self, file_name: str = None, last_few_years: int= None) -> DataFrame:
         df = self._open_file(file_name)
         df = df[[Columns.revenue.value, Columns.vote_average.value, Columns.release_year.value]]
         df = self._filter_by_last_few_years(df, last_few_years)
